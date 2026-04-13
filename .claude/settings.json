@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python scripts/*.py *)",
+      "Bash(mkdir -p output/images output/audio)",
+      "Bash(pip install -r requirements.txt)",
+      "Read(**/*)",
+      "Write(output/**)"
+    ],
+    "deny": [
+      "Bash(rm -rf *)"
+    ]
+  }
+}
