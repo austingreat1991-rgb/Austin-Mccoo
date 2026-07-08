@@ -16,13 +16,12 @@
     "ceo": "CEO",
     "diy": "DIY",
     "faq": "FAQ",
-    "gujiyu": "GUJIYU",
-    "gu ji yu": "GUJIYU",
-    "aria": "Aria",
-    "k beauty": "K-beauty",
-    "kbeauty": "K-beauty",
-    "hyaluronic": "hyaluronic",
-    "spf": "SPF"
+    "skool": "Skool",
+    "trybe": "Trybe",
+    "ugc": "UGC",
+    "mrr": "MRR",
+    "roi": "ROI",
+    "mccoo": "McCoo"
   },
-  "flag": []
+  "flag": ["school", "tribe", "cool"]
 }

@@ -91,20 +91,21 @@ The editor's voice and look come **entirely from [`brand-kit.md`](brand-kit.md)*
 feeds. Captions and on-thumbnail copy should sound like the creator described there; the signature
 look is locked in [`presets/signature-style.md`](presets/signature-style.md). Apply those verbatim.
 
-**Applied brand — GUJIYU (personalized 2026-07-08):**
-- **Creator:** GUJIYU, a Korean skincare brand, hosted by **Aria** — a 24yo AI K-beauty influencer
-  (cartoon/anime aesthetic, pastel wardrobe, dewy glass skin).
-- **Niche:** Korean skincare — holistic, glass-skin beauty (tips, routines, ingredients).
-- **Handles:** IG `@gujiyu` · YT `@gujiyu` · TikTok `@gujiyu` _(placeholders — confirm real handles + YT channel ID in `brand-kit.md`)_.
-- **Voice/tone:** warm and knowledgeable, like a K-beauty best friend — never clinical or salesy.
-  Aesthetic-forward (glass skin, dewy, pastel, ingredient-driven). Naturally blends a few Korean
-  phrases (피부 결, 촉촉한, 수분) into conversational English. Hook-driven structure:
-  pattern interrupt → curiosity gap → value → light CTA.
-- **Palette (in both graphics presets):** `--sky #fdeef2` · `--grid #f6cdd9` · `--royal #ff5b8d` (hero)
-  · `--peri #e2a7d4` (secondary) · `--ink #3a2233` (title) · `--slate #8f7180` (muted).
+**Applied brand — Whitelist Wealth (personalized 2026-07-08):**
+- **Creator:** **Austin McCoo** — Whitelist Wealth, a paid Skool community teaching people to get
+  paid making short brand videos (UGC / whitelisting on Trybe & Instagram Shop).
+- **Niche:** making money online with UGC / whitelisting + building a paid community.
+- **Handles:** IG `@whitelistwealth` · YT `@whitelistwealth` · TikTok `@whitelistwealth`
+  _(placeholders — confirm real handles + YT channel ID in `brand-kit.md`)_.
+- **Voice/tone:** confident, motivational, direct — a hustler-mentor talking straight to camera.
+  Casual and energetic (not corporate), proof-and-numbers led (MRR, members, earnings math). Hook-driven:
+  bold claim → proof → how-it-works → call to join. Clean and punchy; never hypey-scammy or fake-guru.
+- **Palette (in both graphics presets):** `--sky #f7f8fa` · `--grid #e3e7ee` · `--royal #12a150`
+  (money-green hero) · `--peri #d4a72c` (gold secondary) · `--ink #10151c` (title) · `--slate #5a6473`
+  (muted). Clean premium light canvas; flip to dark on request.
 - **Fonts:** Inter (display, bundled) + Coolvetica (locked caption look) — defaults kept.
 
-> This install has been personalized for GUJIYU; the onboarding gate above is satisfied
+> This install has been personalized for Whitelist Wealth; the onboarding gate above is satisfied
 > (`brand-kit.md` has zero `<<…>>` tokens). Never ship a video carrying someone else's handle,
 > hook, or colors.
 

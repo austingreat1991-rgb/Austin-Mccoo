@@ -16,12 +16,12 @@ Locked 2026-06-24 (`your-job` hook-v5).
 ### Colors
 | Token | Hex | Use |
 |-------|-----|-----|
-| `--sky`    | `#fdeef2` | background base (the one constant) |
-| `--grid`   | `#f6cdd9` | grid lines, super-thin (1px) |
-| `--royal`  | `#ff5b8d` | electric blue — the hero accent |
-| `--peri`   | `#e2a7d4` | periwinkle — secondary accent (gradients/decorative; low-contrast, never small text) |
-| `--ink`    | `#3a2233` | deep navy — primary title text (added 2026-06-24 for two-tone hierarchy) |
-| `--slate`  | `#8f7180` | muted subhead text |
+| `--sky`    | `#f7f8fa` | background base (the one constant) |
+| `--grid`   | `#e3e7ee` | grid lines, super-thin (1px) |
+| `--royal`  | `#12a150` | electric blue — the hero accent |
+| `--peri`   | `#d4a72c` | periwinkle — secondary accent (gradients/decorative; low-contrast, never small text) |
+| `--ink`    | `#10151c` | deep navy — primary title text (added 2026-06-24 for two-tone hierarchy) |
+| `--slate`  | `#5a6473` | muted subhead text |
 
 ### Fonts — Inter
 Files at `assets/fonts/Inter-{Black,Bold,Regular}.otf` → copy into each hf project's `assets/fonts/` and `@font-face` them (headless render needs the file embedded).
@@ -31,13 +31,13 @@ Files at `assets/fonts/Inter-{Black,Bold,Regular}.otf` → copy into each hf pro
 - Inter Black is WIDE. Re-measure the longest title word (PIL `ImageFont.getlength`) before sizing — on a 1080px frame w/ 72px padding (936px usable), a mixed-case ~9-char word maxes ~200px; stacked titles sit comfortably ~150–170px.
 
 ### Signature background — "A · Spotlight"
-`#fdeef2` base + thin `#f6cdd9` grid + soft white center glow. Reuse for ANY background:
+`#f7f8fa` base + thin `#e3e7ee` grid + soft white center glow. Reuse for ANY background:
 ```css
 background:
   radial-gradient(120% 78% at 42% 36%, rgba(255,255,255,0.72), rgba(255,255,255,0) 70%),
-  linear-gradient(rgba(246,205,217,0.55) 1px, transparent 1px) 0 0 / 100px 100px,
-  linear-gradient(90deg, rgba(246,205,217,0.55) 1px, transparent 1px) 0 0 / 100px 100px,
-  #fdeef2;
+  linear-gradient(rgba(227,231,238,0.55) 1px, transparent 1px) 0 0 / 100px 100px,
+  linear-gradient(90deg, rgba(227,231,238,0.55) 1px, transparent 1px) 0 0 / 100px 100px,
+  #f7f8fa;
 ```
 Grid cell `100px` per 1080px width (scale with frame). Move the glow to sit behind the focal text.
 

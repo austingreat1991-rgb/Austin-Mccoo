@@ -13,12 +13,12 @@ Until this file is filled in, the editor stays in onboarding mode and won't star
 
 ## 1. Identity
 
-- **Name / creator:** `GUJIYU — hosted by Aria (AI K-beauty influencer)`
-- **Niche (one line):** `Korean skincare — holistic, glass-skin beauty (K-beauty tips, routines, ingredients)`
+- **Name / creator:** `Whitelist Wealth — Austin McCoo`
+- **Niche (one line):** `Getting paid to make short brand videos (UGC / whitelisting) + building a paid Skool community`
 - **Handles:**
-  - Instagram: `@gujiyu`  _(placeholder — confirm the real handle)_
-  - YouTube: `@gujiyu`  ·  channel ID: `TBD — paste the UC… channel ID here`
-  - TikTok: `@gujiyu`  _(placeholder — confirm the real handle)_
+  - Instagram: `@whitelistwealth`  _(placeholder — confirm the real handle)_
+  - YouTube: `@whitelistwealth`  ·  channel ID: `TBD — paste the UC… channel ID here`
+  - TikTok: `@whitelistwealth`  _(placeholder — confirm the real handle)_
 
 ## 2. Voice & tone (drives caption + hook copy)
 
@@ -26,10 +26,11 @@ How your captions should *sound* — punchy? formal? lowercase-casual? slang-hea
 Burn-in captions and on-thumbnail copy are written to match this.
 
 ```
-Warm and knowledgeable — like a K-beauty best friend, never clinical. Soft, inviting, and
-aesthetic-forward (glass skin, dewy, pastel, ingredient-driven). Naturally blends a few Korean
-phrases (피부 결, 촉촉한, 수분) into conversational English. Hook-driven: pattern interrupt →
-curiosity gap → value → light CTA. Lowercase-casual is fine; never harsh, robotic, or salesy.
+Confident, motivational, and direct — a hustler-mentor talking straight to camera about making
+money online. Casual and energetic (not corporate), speaks to people who want financial freedom
+and a real side income. Leads with proof and numbers (MRR, members, earnings math) and concrete
+steps. Hook-driven: bold claim → proof → how-it-works → call to join. Clean and punchy; never
+hypey-scammy or fake-guru.
 ```
 
 ## 3. Brand colors (the signature look)
@@ -40,19 +41,23 @@ a color for each role. (The defaults shown are the starter palette; replace with
 
 | Role | Token in presets | Default | Yours |
 |------|------------------|---------|-------|
-| **Background base** (the canvas) | `--sky` | `#ddf4ff` | `#fdeef2` |
-| **Grid lines** (thin texture) | `--grid` | `#74dff6` | `#f6cdd9` |
-| **Hero accent** (the ONE loud color) | `--royal` | `#1e48ff` | `#ff5b8d` |
-| **Secondary accent** (gradients/decorative) | `--peri` | `#879cff` | `#e2a7d4` |
-| **Title text** (dark, primary copy) | `--ink` | `#0a1a4d` | `#3a2233` |
-| **Muted text** (subheads/labels) | `--slate` | `#5e687d` | `#8f7180` |
+| **Background base** (the canvas) | `--sky` | `#ddf4ff` | `#f7f8fa` |
+| **Grid lines** (thin texture) | `--grid` | `#74dff6` | `#e3e7ee` |
+| **Hero accent** (the ONE loud color) | `--royal` | `#1e48ff` | `#12a150` |
+| **Secondary accent** (gradients/decorative) | `--peri` | `#879cff` | `#d4a72c` |
+| **Title text** (dark, primary copy) | `--ink` | `#0a1a4d` | `#10151c` |
+| **Muted text** (subheads/labels) | `--slate` | `#5e687d` | `#5a6473` |
+
+> **Whitelist Wealth palette:** clean premium canvas, money-green hero, gold secondary — green = money,
+> gold = premium, near-black title on a light canvas. Kept light-canvas/dark-ink so the presets render
+> correctly out of the box. Want a **dark** premium look instead? Say so and I'll invert it.
 
 > Tip: keep **Background light** and **Title text dark** (or vice-versa) so copy stays readable, and let
 > **Hero accent** be your one bold brand color. The graphics use it sparingly for emphasis.
 
 ## 4. Fonts
 
-- **Display font** (titles/graphics): `Inter` (keeping the bundled default — soft, rounded, on-brand) — default is **Inter**, bundled in `assets/fonts/`
+- **Display font** (titles/graphics): `Inter` (keeping the bundled default — clean, bold, modern) — default is **Inter**, bundled in `assets/fonts/`
   (nothing to install). To use your own, drop the `.otf`/`.ttf` (with **Black/Bold/Regular** weights) into
   `assets/fonts/` and name it here. *(Prefer Apple's SF Pro Display? Install from https://developer.apple.com/fonts.)*
 - **Caption font** (burn-in): **Coolvetica** ships in `assets/fonts/` (the locked explainer caption look).
@@ -70,8 +75,8 @@ WhisperX sometimes mishears product or brand names. List yours as `heard → cor
 automatically.
 
 ```
-"gujiyu" → "GUJIYU", "gu ji yu" → "GUJIYU", "aria" → "Aria",
-"k beauty" → "K-beauty", "glass skin" → "glass skin", "hyaluronic" → "hyaluronic"
+"whitelist wealth" → "Whitelist Wealth", "skool" → "Skool", "trybe" → "Trybe",
+"ugc" → "UGC", "mrr" → "MRR", "whitelisting" → "whitelisting", "mccoo" → "McCoo"
 ```
 
 ## 7. Face references (thumbnails)

@@ -17,8 +17,8 @@ Render mechanics (how parts are built/rendered/recomposited) live in
 ## 🔒 CONSTANTS — never change these
 
 ### Colors — same brand tokens as short-form
-`--sky #fdeef2` · `--grid #f6cdd9` · `--royal #ff5b8d` (hero accent) · `--peri #e2a7d4` (secondary) ·
-`--ink #3a2233` (title text) · `--slate #8f7180` (muted/labels). Royal is the one hero accent; CTA is your single offer.
+`--sky #f7f8fa` · `--grid #e3e7ee` · `--royal #12a150` (hero accent) · `--peri #d4a72c` (secondary) ·
+`--ink #10151c` (title text) · `--slate #5a6473` (muted/labels). Royal is the one hero accent; CTA is your single offer.
 
 ### Fonts — Inter
 `Inter-{Black,Bold,Regular}.otf` → `@font-face` into the hf project (headless render needs the file).
@@ -32,9 +32,9 @@ and it must read on its OWN fill so isolated overlay renders composite identical
 .glass{background:linear-gradient(155deg,rgba(255,255,255,0.88),rgba(238,244,255,0.74));
   backdrop-filter:blur(22px) saturate(160%);-webkit-backdrop-filter:blur(22px) saturate(160%);
   border:1.5px solid rgba(255,255,255,0.85);border-radius:26px;
-  box-shadow:0 26px 60px rgba(58,34,51,0.34),inset 0 2px 0 rgba(255,255,255,0.95),inset 0 -1px 0 rgba(226,167,212,0.3);}
-.glass.royal{border-color:rgba(255,91,141,0.35);                       /* payoff/hero panels */
-  box-shadow:0 26px 60px rgba(255,91,141,0.34),0 0 0 1.5px rgba(255,91,141,0.22),inset 0 2px 0 rgba(255,255,255,0.95);}
+  box-shadow:0 26px 60px rgba(16,21,28,0.34),inset 0 2px 0 rgba(255,255,255,0.95),inset 0 -1px 0 rgba(212,167,44,0.3);}
+.glass.royal{border-color:rgba(18,161,80,0.35);                       /* payoff/hero panels */
+  box-shadow:0 26px 60px rgba(18,161,80,0.34),0 0 0 1.5px rgba(18,161,80,0.22),inset 0 2px 0 rgba(255,255,255,0.95);}
 ```
 Add a `.sheen` sweep on hero panels (diagonal white gradient swiped across). Every panel is `.glass`.
 
